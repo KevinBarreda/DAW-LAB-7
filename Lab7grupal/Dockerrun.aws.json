@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "74814758/docker-aws-grupal",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 3000,
+      "HostPort": 8000
+    }
+  ],
+  "Logging": "/var/log/nginx"
+}
+
+
+
